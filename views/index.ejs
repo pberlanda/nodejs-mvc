@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<h>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>🏠 <%= title %></h1>
+
+    <ul>
+        <% items.forEach(item => { %>
+
+            <li>
+                <a href="/item/<%= item.id %>"><%= item.name %></a>
+            </li>
+
+        <% }); %>
+
+    </ul>
+
+</body>
+</html>
