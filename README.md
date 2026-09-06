@@ -1,5 +1,10 @@
 # NodeJS + MVC
 
+1. per installare express npm install Express
+2. per installare EJS npm install EJS
+3. per eseguire applicazione node app.js
+
+
 # Unipegaso
 ### Tecnologie Web
 ### Lezione 59 NodeJS MVC
